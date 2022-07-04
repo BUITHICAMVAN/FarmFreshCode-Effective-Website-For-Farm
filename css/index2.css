@@ -1,0 +1,138 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+.agriculture{
+    padding: 80px 0;
+}
+
+.agriculture .agriculture_content{
+    display: flex;
+}
+
+.agriculture .left{
+    width: 50%;
+}
+
+.agriculture .left h5{
+    font-size: 22px;
+    color: #fb811e;
+}
+
+.agriculture .left h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #060606;
+}
+
+.agriculture .left p{
+    margin-top: 10px;
+    max-width: 80%;
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.agriculture .left .button{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 400;
+    background: #fb811e;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.agriculture .left .button:hover{
+    background: #009f4d;
+    color: #ffffff;
+}
+
+.agriculture .right{
+    width: 50%;
+}
+
+.agriculture .right img{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.Choose{
+    padding: 80px 0;
+    background-color: #009f4d;
+}
+
+.Choose .title .title_content{
+    display: flex;
+    color: #fff;
+}
+
+.Choose .title .title_content .left{
+    width: 50%;
+
+}
+
+.Choose .title .title_content .left h5{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.Choose .title .title_content .left h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    max-width: 80%;
+}
+
+.Choose .title .title_content .right{
+    width: 50%;
+}
+
+.Choose .title .title_content .right p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 80%;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+/* .Choose .main{
+    margin-top: 80px;
+}
+
+.Choose .main .row{
+    display: flex;
+}
+
+.Choose .main .item{
+    background: #fff;
+    padding: 30px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.Choose .main .item img{
+    width: 250px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+} */
