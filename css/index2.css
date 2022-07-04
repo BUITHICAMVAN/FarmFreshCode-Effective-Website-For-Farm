@@ -80,11 +80,17 @@
 .Choose .title .title_content{
     display: flex;
     color: #fff;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .Choose .title .title_content .left{
-    width: 50%;
-
+    max-width: 50%;
+    flex: 0 0 50%;
+    position: relative;
+    width: 100%;
+    padding:0 15px;
 }
 
 .Choose .title .title_content .left h5{
@@ -97,11 +103,16 @@
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
-    max-width: 80%;
+    max-width: 85%;
+    font-family: 'Volkhov', serif;
 }
 
 .Choose .title .title_content .right{
-    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+    position: relative;
+    width: 100%;
+    padding:0 15px;
 }
 
 .Choose .title .title_content .right p{
@@ -112,7 +123,18 @@
     margin-top: 40px;
 }
 
-/* .Choose .main{
+.Choose .title .title_content .bg_content{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 0;
+    opacity: 0.14;
+    font-size: 90px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.Choose .main{
     margin-top: 80px;
 }
 
@@ -120,19 +142,52 @@
     display: flex;
 }
 
+
+
 .Choose .main .item{
     background: #fff;
-    padding: 30px 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
     border: 1px solid #eee;
-    border-top: none;
+    border: none;
 }
 
-.Choose .main .item img{
-    width: 250px;
+.Choose .main .item_header img{
     border-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-} */
+}
+
+.Choose .main .item_body{
+    margin-left: 30px;
+}
+
+.Choose .main .item_body span{
+    display: inline-block;
+    color: #009f4d;
+    background-color: rgb(0 159 77 / 16%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Choose .main .item_body h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #060606;
+    margin: 15px 0;
+}
+
+.Choose .main .item_body h3:hover{
+    color: #009f4d;
+}
+
+.Choose .main .item_body p{
+    max-width: 80%;
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+    padding-bottom: 30px;
+}
