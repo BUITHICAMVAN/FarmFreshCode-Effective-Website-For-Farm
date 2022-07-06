@@ -29,6 +29,7 @@
 .farm-carousel {
     position: relative;
     width: 100%;
+    height: 800px;
 }
 .farm-carousel .farm-carousel-bg::after {
     content: "Farm";
