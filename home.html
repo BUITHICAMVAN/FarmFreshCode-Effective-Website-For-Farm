@@ -1,10 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farm</title>
+    <title>Farmstead</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="//fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/css/style-liberty.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/home.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="navbar-logo">
+              <a class="navbar-brand" href="#"
+                >Farmstead<i class="fa-solid fa-leaf"></i
+              ></a>
+            </div>
+
+            <div class="navbar-content" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- search form -->
+                <form class="container-fluid">
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></span>
+                    <input type="text" class="form-control" />
+                  </div>
+                </form>
+
+                <!-- night mode -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-regular fa-moon"></i
+                  ></a>
+                </li>
+
+                <!-- toggle bar -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-bars"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="./home.html">Home</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="./about.html">About</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="./services.html"
+                        >Services</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="./services.html"
+                        >Blog Posts</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Landing Page</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Elements Page</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">404 Page</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="farm-carousel">
+      <div class="container-fluid">
+        <div class="farm-carousel-bg"></div>
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="farm-title text-left">
+              <h3 class="mb-sm-4 mb-2">
+                Welcome to Farmstead <br />
+                where Natural Food is <br />born!
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.
+              </p>
+              <a class="btn btn-style mt-sm-5 mt-4" href="./about.html"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7">
+            <div class="farm-slider">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      src="./img/bg1.jpg"
+                      class="d-block w-100"
+                      alt="Field Pic"
+                    />
+                    <div class="img-info">
+                      <h4>01/<span>03</span></h4>
+                      <p>Agriculture</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="./img/bg2.jpg"
+                      class="d-block w-100"
+                      alt="Truck Pic"
+                    />
+                    <div class="img-info">
+                      <h4>02/<span>03</span></h4>
+                      <p>Farm Field</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/bg3.jpg"
+                      class="d-block w-100"
+                      alt="Wheat Pic"
+                    />
+                    <div class="img-info">
+                      <h4>03/<span>03</span></h4>
+                      <p>Organix Farm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="farm-products"></section>
+
+    <section class="farm-services"></section>
+
+    <section class="farm-aboutus"></section>
+
+    <section class="farm-gallery"></section>
+
+    <section class="farm-customer"></section>
+
+    <footer class="footer"></footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Popper anf Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./myScript.js"></script>
+  </body>
 </html>
