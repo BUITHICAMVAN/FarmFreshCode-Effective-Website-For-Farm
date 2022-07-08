@@ -1,6 +1,288 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
+<<<<<<< HEAD:css/index.css
     padding: 0 15px;
     max-width: 100rem;
+=======
+    font-family: 'Volkhov', serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding: 25px 15px;
+    /* background: white; */
+    z-index: 10;
+}
+
+.header .navbar .navbar-logo {
+    margin: 0 0;
+}
+
+.header .navbar .navbar-logo a {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0px;
+}
+
+.header .navbar .navbar-brand i {
+    top: -0.2px;
+    left: 55px;
+    font-size: 20px;
+}
+
+.header .navbar .navbar-content {
+    margin-right: 0px;
+}
+
+.header .navbar .navbar-content a {
+    color: white;
+}
+
+.header .navbar .navbar-content .nav-item .nav-link {
+    font-size: 29px;
+    line-height: 1em;
+}
+
+.header .navbar .navbar-content .navbar-nav .nav-item:first-child i {
+    font-size: 15px;
+    line-height: 1em;
+    transform: rotate(70deg);
+}
+
+.farm-carousel {
+    height: 650px;
+}
+
+.farm-carousel .farm-carousel-bg::after {
+    content: "Farm";
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 500px;
+    color: #40404016;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.farm-carousel .row .farm-title {
+    position: relative;
+    top: 190px;
+    left: 90px;
+    z-index: 10;
+    height: 100%;
+}
+
+.farm-carousel .row .farm-title h3 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.farm-carousel .row .farm-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.farm-carousel .row .farm-title .btn-style {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    background: #fb811e;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    transition: all .25s ease-in-out;
+}
+
+.farm-carousel .row .farm-title .btn-style:hover {
+    background: #28a745;
+}
+
+.farm-carousel .row .farm-slider {
+    width: 100%;
+    height: 100%;
+}
+
+.farm-carousel .row .farm-slider .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 4px;
+}
+
+.farm-carousel .row .farm-slider .carousel-indicators button:active {
+    background-color: #fb811e;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner img {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    height: 650px;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info {
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    right: 50px;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info h4 {
+    color: white;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info p {
+    color: white;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.farm-products {
+    padding: 8rem 1.5rem;
+}
+
+.farm-products .row .product-leader {
+    padding: 40px 0;
+    padding-right: 30px;
+}
+
+.farm-products .row .product-leader h5 {
+    color: #fb811e;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.farm-products .row .product-leader h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.farm-products .row .product-leader p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #707070;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.farm-products .row .product-type .product-info {
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 10%;
+}
+
+.farm-products .row .product-type .product-info img {
+    margin: 0 auto;
+    width: 65px;
+}
+
+.farm-products .row .product-type .product-info div {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.farm-products .row .product-type .product-info a {
+    color: black;
+}
+
+.farm-services {
+    background:#009f4d;
+    position: relative;
+    padding: 0 20px;
+}
+
+.farm-services .service-title::after {
+    content: "Services";
+    position: absolute;
+    top: 80px;
+    left: 260px;
+    width: 500px;
+    color: #fff7f724;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.farm-services .service-title .service-left h5 {
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.farm-services .service-title .service-left h3 {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.farm-services .service-title .service-right p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.farm-services .service-main .item {
+    background: white;
+    border-radius: 10%;
+}
+
+.farm-services .service-main .item img {
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.farm-services .service-main .item .btn {
+    color: #009f4d;
+    background: rgb(0 159 77 / 16%);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 26px;
+    border-radius: 35%;
+    margin: 20px 20px 0 20px;
+}
+
+.farm-services .service-main .item .content {
+    padding: 30px 20px;
+}
+
+.farm-services .service-main .item .content a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #060606;
+    margin: 15px 0;
+}
+
+.farm-services .service-main .item .content a:hover {
+    color:#009f4d ;
+}
+
+.farm-services .service-main .item .content p {
+    padding-top: 15px;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+>>>>>>> 270b824275c093b197da3f1391a4ab8dabda02f1:css/home.css
 }
