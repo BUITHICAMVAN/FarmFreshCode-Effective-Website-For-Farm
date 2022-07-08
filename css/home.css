@@ -281,3 +281,52 @@
     font-size: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.farm-aboutus {
+    margin: 5rem 0;
+}
+
+.farm-aboutus .about-left .about-title h5 {
+    color: #fb811e;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.farm-aboutus .about-left .about-title h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.farm-aboutus .about-left .about-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.farm-aboutus .about-left .content i {
+    font-size: 30px;
+    color: #fb811e;
+    padding-right: 10px;
+}
+
+.farm-aboutus .about-left .content span {
+    font-size: 20px;
+    color:black;
+    font-weight: 600;
+    font-family: 'Volkhov', serif;
+    margin-bottom: 10px;
+}
+
+.farm-aboutus .about-left .content p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #707070;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+}
