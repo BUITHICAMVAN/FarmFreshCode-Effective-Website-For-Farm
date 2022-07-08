@@ -1,10 +1,6 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
-<<<<<<< HEAD:css/index.css
-    padding: 0 15px;
-    max-width: 100rem;
-=======
     font-family: 'Volkhov', serif;
 }
 
@@ -284,7 +280,6 @@
     padding-top: 15px;
     font-size: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
->>>>>>> 270b824275c093b197da3f1391a4ab8dabda02f1:css/home.css
 }
 
 .farm-aboutus {
