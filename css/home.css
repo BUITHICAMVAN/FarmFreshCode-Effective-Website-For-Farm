@@ -286,6 +286,10 @@
     margin: 5rem 0;
 }
 
+.farm-aboutus .row {
+    margin-bottom: 5rem;
+}
+
 .farm-aboutus .about-left .about-title h5 {
     color: #fb811e;
     font-weight: 400;
@@ -365,4 +369,95 @@
     line-height: 26px;
     letter-spacing: .2px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.farm-aboutus .row .item {
+    margin-top: 30px;
+}
+
+.farm-aboutus .row .item img {
+    margin: 0 15px;
+    width: 40px;
+    height: auto;
+}
+
+.farm-aboutus .row .item span {
+    padding: 0 15px;
+    color: black;
+    font-family: 'Volkhov', serif;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.farm-aboutus .row .item p {
+    padding: 0 15px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-left: 85px;
+}
+
+.farm-gallery .row {
+    margin: 0 auto;
+}
+
+.farm-gallery .row .col-6 {
+    margin: 0 -15px;
+} 
+
+.farm-gallery .row .product-title {
+    margin-top: .5rem;
+}
+
+.farm-gallery .row .product-title h5 {
+    color: #fb811e;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.farm-gallery .row .product-title h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.farm-gallery .row .product-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.farm-gallery .row .product-title .btn-style {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fb811e;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    transition: all .25s ease-in-out;
+}
+
+.farm-gallery .row .product-item img {
+    width: 100%;
+}
+
+.farm-gallery .row .product-item .title {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.farm-gallery .row .product-item h5 {
+    color: white;
+    background: rgba(255, 255, 255, 0.27);
+    padding: 6px;
+    margin: 20px;
 }
