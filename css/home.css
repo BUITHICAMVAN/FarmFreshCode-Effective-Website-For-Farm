@@ -330,3 +330,39 @@
     font-family: 'Source Sans Pro', sans-serif;
     padding-left: 50px;
 }
+
+.farm-aboutus .about-right {
+    position: relative;
+}
+.farm-aboutus .about-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.farm-aboutus .about-right .exp{
+    position: absolute;
+    background: #fb811e;
+    text-align: center;
+    left: -85px;
+    bottom: 38px;
+    padding: 70px 50px 30px 50px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%); 
+    border-bottom-right-radius: 40%;
+}
+
+.farm-aboutus .about-right .exp h6 {
+    color: white;
+    font-size: 70px;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+
+.farm-aboutus .about-right .exp p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: .2px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
