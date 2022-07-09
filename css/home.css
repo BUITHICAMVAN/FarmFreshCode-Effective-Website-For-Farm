@@ -497,7 +497,7 @@
 }
 
 .farm-customer .carousel-main .carousel-item {
-    padding: 8rem 10rem;
+    padding: 7rem 0rem;
 }
 
 .farm-customer .carousel-main .carousel-item .title {
@@ -544,3 +544,17 @@
     text-indent: 30px;
 }
 
+.footer {
+    margin: 5rem 3rem;
+}
+
+.footer .row .col-12 {
+    text-align: left;
+}
+
+.footer .findus-footer h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
