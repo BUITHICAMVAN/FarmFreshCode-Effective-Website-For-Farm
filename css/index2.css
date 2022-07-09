@@ -493,6 +493,30 @@
     left: 110px;
 }
 
+.experienced .main .item .text_1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.experienced .main .item .text_1 h3{
+    font-weight: 600;
+    color: #060606;
+    font-size: 21px;
+    font-family: 'Volkhov', serif;
+}
+
+.experienced .main .item .text_1:hover h3{
+    color: #fb811e;
+}
+
+.experienced .main .item .text_1 h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
 .contact{
     padding: 80px;
 }
@@ -563,5 +587,5 @@
 
 .map{
     width: 100%;
-    padding: 80px 0;
+    padding: 40px 0;
 }
