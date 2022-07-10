@@ -48,7 +48,7 @@
 }
 
 .header .navbar .navbar-content a {
-    color: white;
+    color: #060606;
 }
 
 .header .navbar .navbar-content .nav-item .nav-link {
@@ -783,6 +783,38 @@
     margin-bottom: 20px;
 }
 
+.contact_us{
+    padding: 160px 0;
+}
+
+.contact_us .title{
+    display: flex;
+}
+
+.contact_us .title .header_contact h3{
+    margin-bottom: 30px;
+}
+
+.contact_us .title .header_contact .contact_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_us .title .header_contact .contact_text i{
+    font-size: 8px;
+    margin-bottom: -5px;
+}
+
+.contact_us .title .main img{
+    width: 50%;
+    border-radius: 5px;
+    position: absolute;
+    top:-280px;
+    right: 0;
+}
+
 .map{
     padding: 40px 0;
 }
@@ -888,7 +920,7 @@ footer{
     line-height: 2;
 }
 
-.footer .col-4 .footer_icon:hover i{
+.footer .col-4 .footer_icon .icon:hover i{
     color: #fb811e;
     background: rgb(255 201 69 / 19%);
     box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
