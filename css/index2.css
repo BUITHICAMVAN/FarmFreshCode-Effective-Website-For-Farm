@@ -783,6 +783,52 @@
     margin-bottom: 20px;
 }
 
+.components{
+    padding: 80px 0;
+    background-image: url(../img/error2.jpg);
+}
+
+.components .title .header_components form{
+    margin-top: 30px;
+    position: relative;
+}
+
+.components .title .header_components input{
+    padding: 10px 58px 10px 20px;
+    font-size: 16px;
+    color: #060606;
+    border: 2px solid #eee;
+    border-radius: 35px;
+    background: #f4f4f4;
+    height: auto;
+    cursor: text;
+    appearance: none;
+}
+
+.components .title .header_components button{
+    border: none;
+    color: #009f4d;
+    line-height: 1;
+    background: none;
+    position: absolute;
+    left: 210px;
+    padding: 18px 18px;
+    font-size: 16px;
+}
+
+.components .title .header_components .back{
+    margin: 30px;
+    color: #060606;
+}
+
+.components .title .header_components .back i{
+    margin-right: 10px;
+}
+
+.components .title .header_components:hover .back{
+    color: #009f4d !important;
+}
+
 .contact_us{
     padding: 160px 0;
 }
