@@ -11,6 +11,152 @@
     padding:0 15px;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding: 25px 15px;
+    /* background: white; */
+    z-index: 10;
+}
+
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar .navbar-logo {
+    margin: 0 0;
+}
+
+.header .navbar .navbar-logo a {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0px;
+}
+
+.header .navbar .navbar-brand i {
+    top: -0.2px;
+    left: 55px;
+    font-size: 20px;
+}
+
+.header .navbar .navbar-content {
+    margin-right: 0px;
+}
+
+.header .navbar .navbar-content a {
+    color: white;
+}
+
+.header .navbar .navbar-content .nav-item .nav-link {
+    font-size: 29px;
+    line-height: 1em;
+}
+
+.header .navbar .navbar-content .navbar-nav .nav-item:first-child i {
+    font-size: 15px;
+    line-height: 1em;
+    transform: rotate(70deg);
+}
+
+.farm-carousel {
+    height: 650px;
+}
+
+.farm-carousel .farm-carousel-bg::after {
+    content: "Farm";
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 500px;
+    color: #40404016;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.farm-carousel .row .farm-title {
+    position: relative;
+    top: 190px;
+    left: 90px;
+    z-index: 10;
+    height: 100%;
+}
+
+.farm-carousel .row .farm-title h3 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.farm-carousel .row .farm-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.farm-carousel .row .farm-title .btn-style {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    background: #fb811e;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    transition: all .25s ease-in-out;
+}
+
+.farm-carousel .row .farm-title .btn-style:hover {
+    background: #28a745;
+}
+
+.farm-carousel .row .farm-slider {
+    width: 100%;
+    height: 100%;
+}
+
+.farm-carousel .row .farm-slider .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 4px;
+}
+
+.farm-carousel .row .farm-slider .carousel-indicators button:active {
+    background-color: #fb811e;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner img {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    height: 650px;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info {
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    right: 50px;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info h4 {
+    color: white;
+}
+
+.farm-carousel .row .farm-slider .carousel-inner .img-info p {
+    color: white;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
 .agriculture{
     padding: 80px 0;
 }
@@ -130,8 +276,8 @@
     z-index: 1;
     opacity:0.2;
     font-size: 12vw;
-    top: 80px;
-    left: 290px;
+    top: 160px;
+    left: 230px;
     letter-spacing: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -204,18 +350,18 @@
     align-items: center;
 }
 
-.choose .header{
+.choose .header_choose{
     width: 50%;
 }
 
-.choose .header h5{
+.choose .header_choose h5{
     color: #fb811e;
     font-size: 22px;
     font-weight: 400;
     font-family: 'Volkhov', serif;
 }
 
-.choose .header h2{
+.choose .header_choose h2{
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
@@ -223,33 +369,33 @@
     font-family: 'Volkhov', serif;
 }
 
-.choose .header p{
+.choose .header_choose p{
     font-size: 17px;
     line-height: 27px;
     color: #707070;
 }
 
-.choose .header .row{
+.choose .header_choose .row{
     padding-top: 60px;
 }
 
-.choose .header .item{
+.choose .header_choose .item{
     display: flex;
     /* padding-left: 10px; */
 }
 
-.choose .header .item i{
+.choose .header_choose .item i{
     font-size: 30px;
     color: #fb811e;
 }
 
-.choose .header .item h3{
+.choose .header_choose .item h3{
     font-size: 24px;
     font-weight: 600;
     margin: 0 10px;
 }
 
-.choose .header .col p{
+.choose .header_choose .col p{
     max-width: 80%;
     margin: 10px 0 10px 45px;
 }
@@ -299,9 +445,9 @@
     padding: 80px 0;
 }
 
-/* .portfolio .row{
+.portfolio .row{
     margin-left: 40px;
-} */
+}
 
 .portfolio .col-4{
     padding: 40px 0;
@@ -407,25 +553,25 @@
     color: #fff;
 }
 
-.experienced .header{
+.experienced .header_ex{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.experienced .header .left{
+.experienced .header_ex .left{
     max-width: 50%;
     position: relative;
 }
 
-.experienced .header .left h5{
+.experienced .header_ex .left h5{
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 600;
     font-family: 'Volkhov', serif;
 }
 
-.experienced .header .left h2{
+.experienced .header_ex .left h2{
     max-width: 80%;
     font-size: 40px;
     line-height: 50px;
@@ -433,11 +579,11 @@
     font-family: 'Volkhov', serif;
 }
 
-.experienced .header .right{
+.experienced .header_ex .right{
     max-width: 50%;
 }
 
-.experienced .header .right p{
+.experienced .header_ex .right p{
     font-size: 18px;
     max-width: 80%;
     margin-top: 30px;
@@ -445,15 +591,15 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.experienced .header .left h4{
+.experienced .header_ex .left h4{
     position: absolute;
     color: #fff;
     font-weight: bold;
     z-index: 0;
     opacity: 0.14;
     font-size: 180px;
-    left: 25px;
-    bottom: -40px;
+    left: 35px;
+    bottom: 50px;
     font-family: 'Volkhov', serif;
     letter-spacing: 2px;
 }
@@ -467,6 +613,7 @@
     background: #fff;
     padding: 15px;
     border-radius: 8px;
+    position: relative;
 }
 
 .experienced .main .item .img{
@@ -480,17 +627,68 @@
 .experienced .main .item .team{
     text-align: center;
     position: absolute;
-    top: 60px;
-    left: 65px;
-    /* background-color: rgb(8 8 8 / 54%);
-    opacity: 0; */
-    /* visibility: hidden; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(8 8 8 / 54%);
+    visibility: hidden;
+}
+
+.experienced .main .item .team .text{
+    color: #fff;
+    transform: translateY(0px);
+    visibility: hidden;
+    transition: all 2s;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.experienced .main .item:hover .text{
+    color: #fff !important;
+    visibility: visible;
+    animation-name: experienced;
+    animation-duration: 0.5s;
+    /* background-color: rgb(8 8 8 / 54%); */
+}
+
+.experienced .main .img .text:hover .team{
+    background-color: rgb(8 8 8 / 54%);
+    visibility: visible;
+}
+
+@keyframes experienced {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes experienced2 {
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
 
 .experienced .main .item .team .logo{
     position: absolute;
-    top: 265px;
-    left: 110px;
+    top: 300px;
+    left: 150px;
+    transform: translateY(0px);
+    visibility: hidden;
+    color: #fff;
+}
+
+.experienced .main .item:hover .logo{
+    visibility: visible;
+    animation-name: experienced2;
+    animation-duration: 0.5s;
 }
 
 .experienced .main .item .text_1{
@@ -525,19 +723,19 @@
     display: flex;
 }
 
-.contact .header{
+.contact .header_1{
     width: 40%;
     margin-left: 30px;
 }
 
-.contact .header h4{
+.contact .header_1 h4{
     font-size: 22px;
     color: #fb811e;
     font-family: 'Volkhov', serif;
     font-weight: 600;
 }
 
-.contact .header h2{
+.contact .header_1 h2{
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
@@ -545,26 +743,26 @@
     font-family: 'Volkhov', serif;
 }
 
-.contact .header .contact_details{
+.contact .header_1 .contact_details{
     display: flex;
     padding-top: 20px;
 }
 
-.contact .header .contact_left{
+.contact .header_1 .contact_left{
     margin-right: 15px;
 }
 
-.contact .header .contact_left i{
+.contact .header_1 .contact_left i{
     color: #fb811e;
     font-size: 20px;
 }
 
-.contact .header .contact_right p{
+.contact .header_1 .contact_right p{
     color: #707070;
     margin-top: 10px;
 }
 
-.contact .header .contact_right:hover .p{
+.contact .header_1 .contact_right:hover .p{
     color: #fb811e;
 }
 
@@ -586,6 +784,5 @@
 }
 
 .map{
-    width: 100%;
     padding: 40px 0;
 }
