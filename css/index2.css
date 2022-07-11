@@ -7,7 +7,7 @@
 
 .container{
     max-width: 1190px;
-    margin: 0 auto;
+    margin: 0 ;
     padding:0 15px;
 }
 
@@ -785,12 +785,29 @@
 
 .components{
     padding: 80px 0;
-    background-image: url(../img/error2.jpg);
+    position: relative;
+    top: -110px;
+    
+}
+
+.components .title .header_components{
+    width: 50%;
+    padding-bottom: 50px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+.components .title .header_components p{
+    font-size: 200px;
+    margin: 30px 20px;
+    line-height: 1;
+    color: #009f4d;
+    font-family: 'Volkhov', serif;
 }
 
 .components .title .header_components form{
     margin-top: 30px;
-    position: relative;
 }
 
 .components .title .header_components input{
@@ -827,6 +844,15 @@
 
 .components .title .header_components:hover .back{
     color: #009f4d !important;
+}
+
+.components .title .main{
+    width: 50%;
+}
+
+.components .title .main img{
+    width: 100%;
+    
 }
 
 .contact_us{
