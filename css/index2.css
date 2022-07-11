@@ -158,7 +158,7 @@
 }
 
 .agriculture{
-    padding: 80px 0;
+    padding: 80px 40px;
 }
 
 .agriculture .agriculture_content{
@@ -219,7 +219,7 @@
 }
 
 .service{
-    padding: 80px 0;
+    padding: 80px 40px;
     background-color: #009f4d;
     position: relative;
 }
@@ -341,7 +341,7 @@
 }
 
 .choose{
-    padding: 80px 0;
+    padding: 80px 40px;
 }
 
 .choose .title{
@@ -442,7 +442,7 @@
 }
 
 .portfolio{
-    padding: 80px 0;
+    padding: 80px 40px;
 }
 
 .portfolio .row{
@@ -496,7 +496,7 @@
 }
 
 .Gallery{
-    padding: 40px 0;
+    padding: 40px;
 }
 
 .Gallery .row{
@@ -542,13 +542,91 @@
     margin: 20px;
 }
 
-.carousel_1{
-    background-image: url(../img/bg1.jpg);
-    z-index: 1;
+.farm-customer {
+    position: relative;
+}
+
+.farm-customer .carousel .carousel-bg img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+.farm-customer .carousel .carousel-bg::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.463);
+    filter: grayscale(2%) contrast(100%) ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.farm-customer .carousel .carousel-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.farm-customer .carousel-main .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+.farm-customer .carousel-main .carousel-item {
+    padding: 80px 0;
+}
+
+.farm-customer .carousel-main .carousel-item .title {
+    text-align: center;
+}
+
+.farm-customer .carousel-main .carousel-item .title h3{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.farm-customer .carousel-main .carousel-item .title p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.farm-customer .carousel-main .carousel-item img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 155px;
+}
+
+.farm-customer .carousel-main .carousel-item .content {
+    text-align: left;
+}
+
+.farm-customer .carousel-main .carousel-item .content i {
+    font-size: 25px;
+    color:#fb811e ;
+}
+
+.farm-customer .carousel-main .carousel-item .content p {
+    padding-right: 60px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    text-indent: 30px;
 }
 
 .experienced{
-    padding: 80px 0;
+    padding: 80px 30px;
     background-color: #009f4d;
     color: #fff;
 }
@@ -892,7 +970,7 @@
 }
 
 footer{
-    padding: 40px 0;
+    padding: 40px 35px;
     letter-spacing: 1px;
 }
 
