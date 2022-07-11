@@ -965,6 +965,15 @@
     right: 0;
 }
 
+.bootstrap{
+    padding: 80px 0;
+    display: inline-block;
+}
+
+.bootstrap .title{
+    text-align: center;
+}
+
 .map{
     padding: 40px 0;
 }
