@@ -1,0 +1,22 @@
+@media screen and (max-width:576px){
+    .service .title{
+        display: block;
+    }
+    
+    .service .left{
+        width: 100px;
+        display: block;
+    }
+
+    .service .right{
+        width: 100%;
+    }
+
+    .service .title .right .row{
+        display: block;
+    }
+
+    .service .title .col-4{
+        width: 100%;
+    }
+}
