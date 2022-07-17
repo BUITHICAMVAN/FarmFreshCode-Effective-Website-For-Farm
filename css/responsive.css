@@ -1,22 +1,163 @@
 @media screen and (max-width:576px){
-    .service .title{
+    .agriculture .agriculture_content{
+        flex-wrap: wrap;
+    }
+
+    .agriculture .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .agriculture .left h5{
+        font-size: 14px;
+    }
+
+    .agriculture .left h2{
+        font-size: 20px;
+    }
+
+    .agriculture .left p {
+        max-width: 100%;
+    }
+
+    .agriculture .right{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .service .title .title_content{
         display: block;
     }
     
-    .service .left{
-        width: 100px;
+    .service .title .title_content .left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .service .title .title_content .left h5{
+        font-size: 14px;
+    }
+
+    .service .title .title_content .left h2 {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    
+    .service .title .title_content .right{
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .service .title .title_content .right p{
+        max-width: 100%;
+        color: #fff;
+    }
+
+    .service .title .title_content .bg_content {
+        display: none;
+    }
+
+    .choose .title{
         display: block;
     }
 
-    .service .right{
+    .choose .header_choose {
+        width: 100%;
+        text-align: center;
+    }
+
+    .choose .header_choose h5 {
+        font-size: 14px;
+    }
+
+    .choose .header_choose h2 {
+        font-size: 20px;
+    }
+
+    .choose .main{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .choose .main img{
         width: 100%;
     }
 
-    .service .title .right .row{
+    .portfolio .col-12 p{
+        max-width: 100%;
+    }
+
+    .portfolio .col-12 .thumbnail{
+        text-align: center;
+    }
+
+    .Gallery{
+        text-align: center;
+    }
+
+    .Gallery .row .col-3 h4{
+        font-size: 14px;
+    }
+
+    .Gallery .row .col-3 h2{
+        font-size: 20px;
+    }
+
+    .experienced .header_ex{
+        display: block;
+        text-align: center;
+    }
+
+    .experienced .header_ex .left{
+        max-width: 100%;
+    }
+
+    .experienced .header_ex .left h4{
+        display: none;
+    }
+
+    .experienced .header_ex .left h5{
+        font-size: 14px;
+    }
+
+    .experienced .header_ex .left h2{
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .experienced .header_ex .right {
+        max-width: 100%;
+    }
+
+    .experienced .header_ex .right p{
+        max-width: 100%;
+    }
+
+    .contact .title{
         display: block;
     }
 
-    .service .title .col-4{
+    .contact .header_1{
         width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .contact .header_1 h4{
+        font-size: 14px;
+    }
+
+    .contact .header_1 h2{
+        font-size: 20px;
+    }
+
+    .contact .header_1 .contact_left{
+        margin-right: 0px;
+    }
+
+    .contact .main{
+        width: 100%;
+        margin-top: 20px;
     }
 }
