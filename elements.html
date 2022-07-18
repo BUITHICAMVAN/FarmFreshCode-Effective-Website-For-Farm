@@ -157,7 +157,7 @@
         <h4>Overview</h4>
         <h4>Jumbotron</h4>
         <div class="row">
-          <div class="col-12">
+          <div class="col-10 col-lg-12">
             <div class="item">
               <h2>Hello, world!</h2>
               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -166,16 +166,16 @@
               <button class="button">Learn more</button>
             </div>
           </div>
-          <div class="col-12 highlight">
+          <div class="col-10 col-lg-12 highlight">
             <div class="item">
               <pre>
                 <code class="language-html" data-lang="html">
                   &lt;div class="jumbotron"&gt;<br />
-                  &lt;h1 class="display-4">Hello, world!</h1>&gt;<br />
-                  &lt;p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;<br />
-                  &lt;hr class="my-4"&gt;<br />
-                  &lt;p&gt; It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p&gt;<br />
-                  &lt;a class="btn btn-primary btn-lg" href="#" role="button"&lt;Learn more&lt;/a&gt;<br />
+                    &lt;h1 class="display-4">Hello, world!</h1>&gt;<br />
+                    &lt;p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;<br />
+                    &lt;hr class="my-4"&gt;<br />
+                    &lt;p&gt; It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p&gt;<br />
+                    &lt;a class="btn btn-primary btn-lg" href="#" role="button"&lt;Learn more&lt;/a&gt;<br />
                   &lt;/div&gt;
                 </code>
               </pre>
@@ -188,20 +188,20 @@
       <div class="container">
         <h4>Fluid Jumbotron</h4>
         <div class="row">
-          <div class="col-12">
+          <div class="col-10 col-lg-12">
             <div class="item">
               <h2>Fluid jumbotron</h2>
               <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             </div>
-            <div class="col-12 highlight">
+            <div class="col-10 col-lg-12 highlight">
               <div class="item">
                 <pre>
                   <code class="language-html" data-lang="html">
                     &lt;div class="jumbotron jumbotron-fluid"&gt;<br />
-                    &lt;div class="container"&gt;<br />
-                    &lt;h1 class="display-4">Fluid jumbotron&lt;/h1&gt;<br />
-                    &lt;p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.&lt;/p&gt;<br />
-                    &lt;/div&gt;
+                      &lt;div class="container"&gt;<br />
+                        &lt;h1 class="display-4">Fluid jumbotron&lt;/h1&gt;<br />
+                        &lt;p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.&lt;/p&gt;<br />
+                      &lt;/div&gt;
                     &lt;/div&gt;
                   </code>
                 </pre>
@@ -239,17 +239,116 @@
         </nav>
       </div>
     </section>
+    <section class="typo">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-lg-12 highlight">
+            <div class="item">
+              <pre>
+                <code class="language-html" data-lang="html">
+                  &lt;nav aria-label="breadcrumb"&gt;
+                    &lt;ol class="breadcrumb"&gt;
+                      &lt;li class="breadcrumb-item active" aria-current="page"&gt;Home&lt;/li&gt;
+                    &lt;/ol&gt;
+                  &lt;/nav&gt;
+
+                  &lt;nav aria-label="breadcrumb"&gt;
+                    &lt;ol class="breadcrumb"&gt;
+                      &lt;li class="breadcrumb-item active" aria-current="page"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                      &lt;li class="breadcrumb-item active" aria-current="page"&gt;Library&lt;/li&gt;
+                    &lt;/ol&gt;
+                  &lt;/nav&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="breadcrumb_1">
+      <div class="container">
+        <h5>Dividers</h5>
+      </div>
+    </div>
+    <section class="bd-example">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <section class="typo">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-lg-12 highlight">
+            <div class="item">
+              <pre>
+                <code class="language-html" data-lang="html">
+                  &lt;nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb"&gt;
+                    &lt;ol class="breadcrumb"&gt;
+                      &lt;li class="breadcrumb-item"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                      &lt;li class="breadcrumb-item active" aria-current="page"&gt;Library&lt;/li&gt;
+                    &lt;/ol&gt;
+                  &lt;/nav&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="breadcrumb_1">
+      <div class="container">
+        <h5>Cards</h5>
+      </div>
+    </div>
+    <div class="bd-example">
+      <div class="card" style="width: 18rem;">
+        <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/card.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk
+            of the card's content.</p>
+          <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <section class="typo">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-lg-12 highlight">
+            <div class="item">
+              <pre>
+                <code class="language-html" data-lang="html">
+                  &lt;div class="card" style="width: 18rem;"&gt;
+                    &lt;img src="images/card.jpg" class="card-img-top" alt="..."&gt;
+                    &lt;div class="card-body"&gt;
+                      &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
+                      &lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+                      &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-4 col-12 col-lg-4">
+          <div class="col-4 col-12 col-lg-4 col-md-4">
             <h3>FIND US</h3>
             <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
             <p>Phone: <span class="span">+12 23456790</span></p>
             <p>Email: <span class="span">info@example.com</span></p>
             <p>Fax: <span class="span">+ 11 367 21890</span></p>
           </div>
-          <div class="col-4 col-12 col-lg-4 my-4 my-lg-0">
+          <div class="col-4 col-12 col-lg-4 my-4 my-lg-0 col-md-4 mt-md-0">
             <h4 class="footer_logo">
               <i class="fa fa-leaf"></i>
               <p class="logo">Farmstead</p>
@@ -257,7 +356,7 @@
             <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
             <p>© 2022 Farmstead. All Rights Reserved | WordPress Theme by <span class="span_1">W3Layouts</span>.</p>
           </div>
-          <div class="col-4 col-12 col-lg-4">
+          <div class="col-4 col-12 col-lg-4 col-md-4">
             <h3>NEWSLETTER</h3>
             <p>
               Subscribe to our mailing list and get updates to your email inbox.

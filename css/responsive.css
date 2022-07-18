@@ -7,6 +7,10 @@
         position: relative;
         top: 75px;
     }
+
+    .bootstrap .title{
+        margin-left: 80px;
+    }
 }
 
 
@@ -73,6 +77,18 @@
     .contact .button{
         position: relative;
         right: 65px;
+    }
+
+    .contact_us .title .main img{
+        top: 0;
+    }
+
+    .bootstrap .title{
+        margin-left: 0px;
+    }
+
+    .row{
+        margin-left: 25px;
     }
 }
 
@@ -213,6 +229,7 @@
 
     .experienced .header_ex .right p{
         max-width: 100%;
+        color: #fff;
     }
 
     .contact .title{
@@ -273,5 +290,32 @@
 
     .components .title .header_components .form_404 i{
         display: none;
+    }
+
+    .bootstrap .title {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .bootstrap .title .header_bootstrap h3{
+        font-size: 20px;
+    }
+
+    .bootstrap .title .header_bootstrap p {
+        margin-left: 0px;
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .typo h4 {
+        opacity: 0.1;
+    }
+
+    .typo .col-10 .item h2{
+        font-size: 24px;
+    }
+
+    .typo .col-10 .item p{
+        font-size: 14px;
     }
 }

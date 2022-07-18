@@ -1032,28 +1032,28 @@
     margin-top: 30px;
 }
 
-.typo .col-12{
+.typo .col-10{
     padding: 30px;
     border-width: 3px;
     border: solid #eee;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
-.typo .col-12 .item{
+.typo .col-10 .item{
     background-color: #fafafa;
     margin-bottom: 30px;
     border-radius: 4.5px;
     padding: 30px 15px;
 }
 
-.typo .col-12 .item h2{
+.typo .col-10 .item h2{
     font-size: 52px;
     font-weight: 300;
     line-height: 1.2;
 }
 
-.typo .col-12 .item p{
+.typo .col-10 .item p{
     font-size: 19px;
     font-weight: 300;
 }
@@ -1077,6 +1077,10 @@
     color: #060606;
 }
 
+breadcrumb_1{
+    margin-top: 20px;
+}
+
 breadcrumb_1 h5{
     color: #fb811e;
     font-size: 15px;
@@ -1088,6 +1092,27 @@ breadcrumb_1 h5{
     border-width: 3px;
     border: solid #fafafa;
     margin-top: 15px;
+}
+
+.breadcrumb{
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px 15px;
+    margin-bottom: 15px;
+    list-style: none;
+    border-radius: 4px;
+}
+
+.breadcrumb-item.active{
+    color: #6c757d;
+    list-style-type: none;
+}
+
+.typo-wthree h5 {
+    color: #fb811e;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
 .blog{
