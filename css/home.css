@@ -372,7 +372,12 @@
 }
 
 .farm-aboutus .row .item {
-    margin-top: 30px;
+    margin-bottom: 5rem;
+    padding: 20px;
+}
+
+.farm-aboutus .row .item:hover {
+    border: 1px solid rgba(0, 0, 0, 0.168);
 }
 
 .farm-aboutus .row .item img {
@@ -557,4 +562,97 @@
     line-height: 25px;
     margin-bottom: 30px;
     font-weight: 600;
+}
+
+.footer .findus-footer p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.footer .farmstead-footer a {
+    font-size: 32px;
+    color:#fb811e;
+}
+
+.footer .farmstead-footer i {
+    position: absolute;
+    font-size: 20px;
+    color: #fb811e;
+    top: -5px;
+    left: 70px;
+}
+
+.footer .farmstead-footer p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.footer .farmstead-footer span>a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 1rem;
+    color:#009f4d;
+}
+
+.footer .farmstead-footer span>a:hover {
+    color:#fb811e;
+}
+
+.footer .news-footer span>a:hover {
+    color: #fb811e;
+}
+
+.footer .news-footer h3 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer .news-footer p {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer .news-footer .input-group input {
+    border-radius: 30px 0 0 30px;
+    padding: 0 20px;
+    width: 80%;
+}
+
+.footer .news-footer .input-group {
+    margin: 20px 0px;
+}
+
+.footer .news-footer .input-group span {
+    color: white;
+    background-color: #009f4d;
+    border-radius: 0 30px 30px 0;
+    padding: 10px 40px;
+    margin-bottom: 2px;
+    margin-left: 40px;
+}
+
+.footer .logo-footer a {
+    color: #009f4d;
+    background-color: rgb(10 191 83 / 8%);
+    font-size: 16px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.footer .logo-footer i {
+    background-color: rgb(10 191 83 / 8%);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
 }
