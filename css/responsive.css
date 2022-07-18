@@ -1,3 +1,84 @@
+@media screen and (max-width:992px) {
+    .service .main .item_body h3{
+        font-size: 22px;
+    }
+
+    .Gallery .row .jdo img{
+        position: relative;
+        top: 75px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .agriculture .agriculture_content {
+        display: block;
+        text-align: center;
+    }
+
+    .agriculture .left {
+        width: 100%;
+    }
+
+    .agriculture .left p {
+        max-width: 100%;
+    }
+
+    .agriculture .right{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .service .title .title_content .bg_content {
+        top: 315px;
+        left: 180px;
+    }
+
+    .service .main .item_header img{
+        width: 100%;
+    }
+
+    .choose .title {
+        display: block;
+        text-align: center;
+    }
+
+    .choose .header_choose{
+        width: 100%;
+    }
+
+    .choose .header_choose .col p{
+        margin-left: -8px;
+    }
+
+    .choose .main{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .experienced .main .item img{
+        width: 100%;
+    }
+
+    .contact .header_1{
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .contact .main{
+        text-align: right;
+    }
+
+    .contact .button{
+        position: relative;
+        right: 65px;
+    }
+}
+
+
+
+
 @media screen and (max-width:576px){
     .agriculture .agriculture_content{
         flex-wrap: wrap;
@@ -159,5 +240,38 @@
     .contact .main{
         width: 100%;
         margin-top: 20px;
+    }
+
+    .contact_us .title {
+        display: block;
+        text-align: center;
+    }
+
+    .contact_us .title .main{
+        display: block;
+        
+    }
+
+    .contact_us .title .main img{
+        position: relative;
+        width: 100%;
+        top: 50px;
+    }
+
+    .components .title .header_components p{
+        font-size: 150px;
+    }
+
+    .components .title .header_components h2{
+        margin-right: -130px;
+        text-align: center;
+    }
+
+    .components .title .header_components .back{
+        margin: 20px 0 0 20px;
+    }
+
+    .components .title .header_components .form_404 i{
+        display: none;
     }
 }

@@ -1077,6 +1077,19 @@
     color: #060606;
 }
 
+breadcrumb_1 h5{
+    color: #fb811e;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bd-example{
+    padding: 30px;
+    border-width: 3px;
+    border: solid #fafafa;
+    margin-top: 15px;
+}
+
 .blog{
     padding: 160px 40px;
 }
