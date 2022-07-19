@@ -37,18 +37,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
 
-    <!-- CSS -->
+    <!-- Animate  -->
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Wowjs -->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- CSS -->
     <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/index2.css" />
+    <link rel="stylesheet" href="./css/respensive.css" />
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" style="display:none">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="navbar-logo">
               <a class="navbar-brand" href="#"
-                >Farmstead<i class="fa-solid fa-leaf"></i
-              ></a>
+                >Farmstead<i class="fa-solid fa-leaf"></i></a>
             </div>
 
             <div class="navbar-content" id="navbarSupportedContent">
@@ -59,14 +68,14 @@
                     <span class="input-group-text" id="basic-addon1"
                       ><i class="fa-solid fa-magnifying-glass"></i
                     ></span>
-                    <input type="text" class="form-control" />
+                    <input type="text" />
                   </div>
                 </form>
 
                 <!-- night mode -->
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    ><i class="fa-regular fa-moon"></i
+                    ><i class="fa-regular fa-moon" onClick="darkMode()"></i
                   ></a>
                 </li>
 
@@ -288,53 +297,71 @@
       </div>
     </section>
 
-    <section class="farm-services py-5">
-      <div class="container-fluid py-md-5 py-4">
-        <div class="service-bg"></div>
-        <div class="service-title mb-sm-5 mb-4 pb-xl-4">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="service-left">
-                <h5>What we do</h5>
-                <h3>Why Choose Our Fresh <br/> Organic Foods</h3>
-              </div>
+    <section class="service">
+      <div class="container">
+        <div class="title">
+          <div class="title_content">
+            <div class="left">
+              <h5>What we do</h5>
+              <h2>Why Choose Our Fresh Organic Foods</h2>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="service-right">
-                <p>Set ut perspiciatis unde omnis iste natus error sit accusantium doloremque, eaque ipsa quae ab illo inventore.Sed ut perspiciatis unde omnis iste natus error sit.</p>
-              </div>
+            <div class="right">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit accusantium
+                doloremque, eaque ipsa quae ab illo inventore.Sed ut
+                perspiciatis unde omnis iste natus error sit.
+              </p>
             </div>
+            <h4 class="bg_content">services</h4>
           </div>
         </div>
-        <div class="service-main">
+        <div class="main">
           <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
               <div class="item">
-                <img src="./img/service1.jpg">
-                <button type="button" class="btn">Natural</button>
-                <div class="content">
-                  <a href="./services.html" class="heading">Agriculture Products</a>
-                  <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam</p>
+                <div class="item_header">
+                  <img src="./img/hinh2.jpg" class="img-fluid" alt="" />
+                </div>
+
+                <div class="item_body">
+                  <span>Natural</span>
+                  <h3>Agriculture Products</h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus sit accusantium
+                    doloremque laudantium, totam rem aperiam
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 my-5 my-lg-0 col-lg-4">
               <div class="item">
-                <img src="./img/service2.jpg">
-                <button type="button" class="btn">Agriculture</button>
-                <div class="content">
-                  <a href="./services.html" class="heading">Fresh Vegetables</a>
-                  <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam</p>
+                <div class="item_header">
+                  <img src="./img/hinh3.jpg" class="img-fluid" alt="" />
+                </div>
+
+                <div class="item_body">
+                  <span>Agriculture</span>
+                  <h3>Fresh Vegetables</h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus sit accusantium
+                    doloremque laudantium, totam rem aperiam
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
               <div class="item">
-                <img src="./img/service3.jpg">
-                <button type="button" class="btn">Farm</button>
-                <div class="content">
-                  <a href="./services.html" class="heading">Organic Products</a>
-                  <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam</p>
+                <div class="item_header">
+                  <img src="./img/hinh4.jpg" class="img-fluid" alt="" />
+                </div>
+
+                <div class="item_body">
+                  <span>Farm</span>
+                  <h3>Organic Products</h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus sit accusantium
+                    doloremque laudantium, totam rem aperiam
+                  </p>
                 </div>
               </div>
             </div>
@@ -343,143 +370,118 @@
       </div>
     </section>
 
-    <section class="farm-aboutus">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="about-left">
-              <div class="about-title">
-                <h5> Why choose us</h5>
-                <h3> Quality food is the most important thing in our life</h3>
-                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat.</p>
-              </div>
-              <div class="content">
-                <div class="row">
-                  <div class="col-6">
-                    <i class="fa-solid fa-people-group"></i><span>Qualified Staff</span>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
-                  </div>
-                  <div class="col-6">
-                    <i class="fa-solid fa-life-ring"></i><span>Excellent Service</span>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
-                  </div>
+    <section class="choose">
+      <div class="container">
+        <div class="title">
+          <div class="header_choose">
+            <h5>Why choose us</h5>
+            <h2>Quality food is the most important thing in our life</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              explicabo asperiores veritatis impedit neque iusto temporibus,
+              labore illum unde dignissimos, earum corrupti fuga velit vero
+              soluta! Enim aperiam eius eveniet.
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="item">
+                  <i class="fa-solid fa-people-group"></i>
+                  <h3>Qualified Staff</h3>
                 </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
+              </div>
+              <div class="col">
+                <div class="item">
+                  <i class="fa-solid fa-life-ring"></i>
+                  <h3>Excellent Service</h3>
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-5">
-            <div class="about-right">
-              <img src="./img/image1.jpg">
-              <div class="exp">
-                <h6>36+</h6>
-                <p>YEARS OF EXPERIENCE</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-4">
+          <div class="main">
+            <img src="./img/hinh5.jpg" alt="" />
             <div class="item">
-              <img src="./img/icon5.png"><span>Agriculture</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="item">
-              <img src="./img/icon6.png"><span>Fresh</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="item">
-              <img src="./img/icon7.png"><span>Natural</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="item">
-              <img src="./img/icon8.png"><span>Farm</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="item">
-              <img src="./img/icon9.png"><span>Organic</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="item">
-              <img src="./img/icon10.png"><span>Diary</span>
-              <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+              <p>36+</p>
+              <h4>YEARS OF EXPERIENCE</h4>
             </div>
           </div>
         </div>
       </div>
-    </section>          
+    </section>         
 
-    <section class="farm-gallery py-5">
-      <div class="container-fluid py-md-5 py-4">
+    <section class="portfolio">
+      <div class="container">
         <div class="row">
-          <div class="col-6 col-md-3">
-            <div class="product-title">
-              <h5>Gallery</h5>
-              <h3 class="mb-sm-4 mb-2">Our Products</h3>
-              <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
-              <a class="btn btn-style mt-4" href="./about.html">Discover More</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="product-item">
-              <img src="./img/g2.jpg">
-              <div class="title"><h5>Fresh Carrots</h5></div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-                <img src="./img/g3.jpg">
-                <div class="title"><h5>Strawberry</h5></div>
+              <img src="./img/icon1.png" alt="" />
+              <div class="thumbnail">
+                <h4>Agriculture</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-              <img src="./img/g4.jpg">
-              <div class="title"><h5>Our Farm</h5></div>
+              <img src="./img/icon2.png" alt="" />
+              <div class="thumbnail">
+                <h4>Fresh</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-              <img src="./img/g5.jpg">
-              <div class="title"><h5>Fresh Apples</h5></div>
+              <img src="./img/icon3.png" alt="" />
+              <div class="thumbnail">
+                <h4>Natural</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-              <img src="./img/g6.jpg">
-              <div class="title"><h5>Awesome Fields</h5></div>
+              <img src="./img/icon4.png" alt="" />
+              <div class="thumbnail">
+                <h4>Farm</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-              <img src="./img/g7.jpg">
-              <div class="title"><h5>Fresh Grapes</h5></div>
+              <img src="./img/icon5.png" alt="" />
+              <div class="thumbnail">
+                <h4>Organic</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-12 col-lg-4 col-md-6">
             <div class="item">
-              <div class="product-item">
-              <img src="./img/g8.jpg">
-              <div class="title"><h5>Hot Papper</h5></div>
+              <img src="./img/icon6.png" alt="" />
+              <div class="thumbnail">
+                <h4>Dairy</h4>
+                <p>
+                  Ras effic itur metusga via suscipit consectetur adipisicing
+                  unde omnis.
+                </p>
               </div>
             </div>
           </div>
@@ -554,10 +556,10 @@
           </div>
         </div>
     </section>
-
+    
     <footer class="footer">
       <div class=row>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-4">
           <div class="findus-footer">
             <h3>Find us</h3>
             <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
@@ -566,14 +568,14 @@
             <p>Fax: + 11 367 21890</p>
           </div>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-4">
           <div class="farmstead-footer">
             <a class="navbar-brand" href="#">Farmstead<i class="fa-solid fa-leaf"></i></a>
             <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
             <p>© 2022 Farmstead. All Rights Reserved | WordPress Theme by <span><a href="https://w3layouts.com/">W3Layouts</a></span>.</p>
           </div>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-4">
           <div class="news-footer">
             <h3>NEWSLETTER</h3>
             <p>Subscribe to our mailing list and get updates to your email inbox.</p>
@@ -599,7 +601,6 @@
         </div>
       </div>
     </footer>
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -616,11 +617,19 @@
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Bootstrap 5.1.3 -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
     <script src="./myScript.js"></script>
   </body>
 </html>

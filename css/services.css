@@ -9,7 +9,6 @@
     width: 100%;
     height: 90px;
     padding: 25px 15px;
-    /* background: white; */
     z-index: 10;
 }
 
@@ -238,17 +237,52 @@
     color: black;
 }
 
-.agriculture-theme {
-    margin: 100px 0;
+.algriculture {
     position: relative;
+    margin: 100px 0;
 }
 
-.agriculture-theme .thumbnail img {
+.algriculture .thumbnail img {
     height: 200px;
+    object-fit: cover;
+    background-color: #19191934;
 }
 
+.algriculture .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+}
+
+.algriculture .title h5 {
+    font-size: 18px;
+    color:white;
+    font-weight: 400;
+}
+
+.algriculture .title h3 {
+    font-size: 32px;
+    color: white;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.button {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 400;
+    background: #fb811e;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    /* transition: 1s duration; */
+}
 .footer {
-    margin: 5rem 0;
+    margin: 5rem 3rem;
 }
 
 .footer .row .col-12 {

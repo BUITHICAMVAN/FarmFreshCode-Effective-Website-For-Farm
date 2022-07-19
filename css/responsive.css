@@ -1,4 +1,6 @@
+/* Laptop screensize */
 @media screen and (max-width:992px) {
+    
     .service .main .item_body h3{
         font-size: 22px;
     }
@@ -13,7 +15,7 @@
     }
 }
 
-
+/* Tablet screensize */
 @media screen and (max-width:768px) {
     .agriculture .agriculture_content {
         display: block;
@@ -92,9 +94,7 @@
     }
 }
 
-
-
-
+/* Phone screensize */
 @media screen and (max-width:576px){
     .agriculture .agriculture_content{
         flex-wrap: wrap;

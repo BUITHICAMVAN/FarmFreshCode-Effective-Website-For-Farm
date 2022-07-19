@@ -49,9 +49,9 @@
     transform: rotate(70deg);
 }
 
-.blog-carousel {
+/* .blog-carousel {
     padding-left: 10%;
-}
+} */
 
 .blog-carousel .row .carousel-title {
     position: absolute;
@@ -223,9 +223,9 @@
     font-weight: bold;
     z-index: 0;
     opacity: 0.14;
-    font-size: 21rem;
-    left: -150px;
-    bottom: 50px;
+    font-size: 6rem;
+    left: 20px;
+    bottom: 70px;
     font-family: 'Volkhov', serif;
     letter-spacing: 2px;
 }
