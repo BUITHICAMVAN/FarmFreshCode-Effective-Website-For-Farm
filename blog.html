@@ -38,304 +38,291 @@
     />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="./index.html">
     <link rel="stylesheet" href="./css/blog.css" />
   </head>
   <body>
-    <header class="header" style="display:none">
-      <div class="container">
+    <div class="container">
+          <header class="header">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-            <div class="navbar-logo">
+          <div class="navbar-item navbar-logo">
               <a class="navbar-brand" href="#"
-                >Farmstead<i class="fa-solid fa-leaf"></i
-              ></a>
+                >Farmstead<i class="fa-solid fa-leaf"></i></a>
+          </div>
+
+          <div class="navbar-item navbar-content" id="navbarSupportedContent">
+            <div class="navbar-content-item search-bar">
+              <form>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></span>
+                      <input type="text" />
+                    </div>
+              </form>
             </div>
 
-            <div class="navbar-content" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- search form -->
-                <form>
-                  <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1"
-                      ><i class="fa-solid fa-magnifying-glass"></i
-                    ></span>
-                    <input type="text" class="form-control" />
-                  </div>
-                </form>
+            <div classs="navbar-content-item toggle-button">
+               <li class="nav-item dropdown">
+                <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                >
+                      <i class="fa-solid fa-bars"></i>
+                </a>
 
-                <!-- night mode -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    ><i class="fa-regular fa-moon"></i
-                  ></a>
-                </li>
-
-                <!-- toggle bar -->
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <i class="fa-solid fa-bars"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="./home.html">Home</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./about.html">About</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./services.html"
-                        >Services</a
-                      >
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./services.html"
-                        >Blog Posts</a
-                      >
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="landing.html">Landing Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="elements.html">Elements Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="404.html">404 Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                        <a class="dropdown-item" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./about.html">About</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./services.html"
+                          >Services</a
+                        >
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./services.html"
+                          >Blog Posts</a
+                        >
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="landing.html">Landing Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="elements.html">Elements Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="404.html">404 Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </li>
             </div>
           </div>
         </nav>
       </div>
     </header>
 
-    <section class="blog-carousel">
-      <div class="row">
-        <div class="col-4">
-          <div class="carousel-title">
-            <h4>Blog Posts</h4>
-            <a><p>Home</p></a>
+      <section class="blog-carousel">
+        <div class="row">
+          <div class="col-4">
+            <div class="carousel-title">
+              <h4>Blog Posts</h4>
+              <a><p>Home</p></a>
+            </div>
           </div>
-        </div>
-        <div class="col-8">
-          <div class="carousel-main">
-            <img src="./img/bg3.jpg">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="blog-card">
-      <div class="row">
-        <div class="col-12 col-md-7">
-          <div class="blog-item">
-            <div class= "card">
-              <img src="./img/new1.jpg" class="card-img-top" alt="blog cards">
-              <div class="card-body">
-                <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
-                <p class="card-text">Hello world!</p>
-                <a href="#" class="btn btn-primary">READ MORE</a>
-              </div>
-            </div>
-
-            <div class="card">
-              <img src="./img/new2.jpg" class="card-img-top" alt="blog cards">
-              <div class="card-body">
-                <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus</p>
-                <a href="#" class="btn btn-primary">READ MORE</a>
-              </div>
-            </div>
-
-            <div class="card">
-              <img src="./img/new3.jpg" class="card-img-top" alt="blog cards">
-              <div class="card-body">
-                <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus</p>
-                <a href="#" class="btn btn-primary">READ MORE</a>
-              </div>
-            </div>
-
-            <div class="card">
-              <img src="./img/new4.jpg" class="card-img-top" alt="blog cards">
-              <div class="card-body">
-                <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
-                <p class="card-text">Ut enim ad minima, quis nostrum eationem
-                </p>
-                <a href="#" class="btn btn-primary">READ MORE</a>
-              </div>
-            </div>
-            <div class="nav-control">
-              <ul class="nav nav-pills">
-                <li class="nav-item">
-                  <a href="./blog.html" class="nav-link active">1</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./blog2.html" class="nav-link">2</a>
-                </li>
-                <li class="nav-item indicator">
-                    <a href="./blog2.html" class="nav-link">Next</a>
-                </li>
-              </ul>
+          <div class="col-8">
+            <div class="carousel-main">
+              <img src="./img/bg3.jpg">
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col-12 col-md-4">
-          <div class="blog-post">
-            <form>
-              <input type="text" placeholder="Search ..">
-              <button>Search</button>
+      <section class="blog-card">
+        <div class="row">
+          <div class="col-12 col-md-7">
+            <div class="blog-item">
+              <div class= "card">
+                <img src="./img/new1.jpg" class="card-img-top" alt="blog cards">
+                <div class="card-body">
+                  <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
+                  <p class="card-text">Hello world!</p>
+                  <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./img/new2.jpg" class="card-img-top" alt="blog cards">
+                <div class="card-body">
+                  <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
+                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus</p>
+                  <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./img/new3.jpg" class="card-img-top" alt="blog cards">
+                <div class="card-body">
+                  <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
+                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus</p>
+                  <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./img/new4.jpg" class="card-img-top" alt="blog cards">
+                <div class="card-body">
+                  <h6 class="card-title">March 24, 2021 - <span>by W3Layouts</span></h6>
+                  <p class="card-text">Ut enim ad minima, quis nostrum eationem
+                  </p>
+                  <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+              </div>
+              <div class="nav-control">
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a href="./blog.html" class="nav-link active">1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./blog2.html" class="nav-link">2</a>
+                  </li>
+                  <li class="nav-item indicator">
+                      <a href="./blog2.html" class="nav-link">Next</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="blog-post">
+              <form>
+                <input type="text" placeholder="Search ..">
+                <button>Search</button>
+              </form>
+              <div class="post-content">
+                <div class="content recent-post">
+                  <h2>Recent Posts</h2>
+                  <ul>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/">Hello World!!</a>                
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/2021/03/24/nemo-enim-ipsam-quia-sit-aspernatur-aut-odit/">Sed Ut Perspiciatis Unde Omnis Iste Natus</a>                
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">Nemo Enim Ipsam Quia Sit Aspernatur Aut Odit</a> 
+                    </li>  
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">Ut Enim Ad Minima, Quis Nostrum Eationem</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">At Eos Et Accusamus Et Iusto Odio Ssimos Duci</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="content recent-cmt">
+                  <h2>Recent Comments</h2>
+                  <ul>
+                    <li>
+                      <a href="https://wordpress.org/">A WordPress Commenter</a></span> on <span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/#comment-1">Hello world!!</a>
+                    </li>
+
+                    <li>
+                      <a href="http://localhost/ubedullah/Wordpress/farmstead">W3Layouts</a><span> on </span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/at-eos-et-accusamus-et-iusto-odio-ssimos-duci/#comment-3">At eos et accusamus et iusto odio ssimos duci</a></span>
+                    </li>
+                    
+                    <li>
+                      <a href="https://wordpress.org/">A WordPress Commenter</a> <span> on </span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/#comment-1">Hello world!!</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="content">
+                  <h2>Archives</h2>
+                  <a href="">March 2021</a>
+                  <hr>
+                </div>
+
+                <div class="content">
+                  <h2>Categories</h2>
+                  <ul>
+                    <li>
+                      <a href="https://wordpress.org/">Agriculture</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wordpress.org/">Farming</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="content">
+                  <h2>Meta</h2>
+                  <ul>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/wp-login.php">Log in</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/feed/">Entries Feed</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wp.w3layouts.com/farmstead/comments/feed/">Comments Feed</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a href="https://wordpress.org/">WordPress.Org</a>
+                    </li>
+                    <hr>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class=row>
+          <div class="col-12 col-md-4">
+            <div class="findus-footer">
+              <h3>Find us</h3>
+              <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+              <p>Phone: +12 23456790</p>
+              <p>Email: info@example.com</p>
+              <p>Fax: + 11 367 21890</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="farmstead-footer">
+              <a class="navbar-brand" href="#">Farmstead<i class="fa-solid fa-leaf"></i></a>
+              <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
+              <p>© 2022 Farmstead. All Rights Reserved | WordPress Theme by <span><a href="https://w3layouts.com/">W3Layouts</a></span>.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="news-footer">
+              <h3>NEWSLETTER</h3>
+              <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+              <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email Address">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-paper-plane"></i></span>
+                </div>
+              </div>
             </form>
-            <div class="post-content">
-              <div class="content recent-post">
-                <h2>Recent Posts</h2>
-                <ul>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/">Hello World!!</a>                
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/2021/03/24/nemo-enim-ipsam-quia-sit-aspernatur-aut-odit/">Sed Ut Perspiciatis Unde Omnis Iste Natus</a>                
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">Nemo Enim Ipsam Quia Sit Aspernatur Aut Odit</a> 
-                  </li>  
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">Ut Enim Ad Minima, Quis Nostrum Eationem</a>
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/2021/03/24/ut-enim-ad-minima-quis-nostrum-eationem/">At Eos Et Accusamus Et Iusto Odio Ssimos Duci</a>
-                  </li>
-                </ul>
-              </div>
 
-              <div class="content recent-cmt">
-                <h2>Recent Comments</h2>
-                <ul>
-                  <li>
-                    <a href="https://wordpress.org/">A WordPress Commenter</a></span> on <span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/#comment-1">Hello world!!</a>
-                  </li>
-
-                  <li>
-                    <a href="http://localhost/ubedullah/Wordpress/farmstead">W3Layouts</a><span> on </span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/at-eos-et-accusamus-et-iusto-odio-ssimos-duci/#comment-3">At eos et accusamus et iusto odio ssimos duci</a></span>
-                  </li>
+            <div class="logo-footer">
+                  <a href="https://www.facebook.com/w3layouts/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-twitter"></i></a>
                   
-                  <li>
-                    <a href="https://wordpress.org/">A WordPress Commenter</a> <span> on </span><a href="https://wp.w3layouts.com/farmstead/2021/03/24/hello-world/#comment-1">Hello world!!</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="content">
-                <h2>Archives</h2>
-                <a href="">March 2021</a>
-                <hr>
-              </div>
-
-              <div class="content">
-                <h2>Categories</h2>
-                <ul>
-                  <li>
-                    <a href="https://wordpress.org/">Agriculture</a>
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wordpress.org/">Farming</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="content">
-                <h2>Meta</h2>
-                <ul>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/wp-login.php">Log in</a>
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/feed/">Entries Feed</a>
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wp.w3layouts.com/farmstead/comments/feed/">Comments Feed</a>
-                  </li>
-                  <hr>
-                  <li>
-                    <a href="https://wordpress.org/">WordPress.Org</a>
-                  </li>
-                  <hr>
-                </ul>
-              </div>
+                  <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-twitter"></i></a>
+                  
+                  <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-github-square"></i></a>
+                  
+          </div>
             </div>
-          </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class=row>
-        <div class="col-12 col-md-4">
-          <div class="findus-footer">
-            <h3>Find us</h3>
-            <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
-            <p>Phone: +12 23456790</p>
-            <p>Email: info@example.com</p>
-            <p>Fax: + 11 367 21890</p>
-          </div>
         </div>
-        <div class="col-12 col-md-4">
-          <div class="farmstead-footer">
-            <a class="navbar-brand" href="#">Farmstead<i class="fa-solid fa-leaf"></i></a>
-            <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
-            <p>© 2022 Farmstead. All Rights Reserved | WordPress Theme by <span><a href="https://w3layouts.com/">W3Layouts</a></span>.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="news-footer">
-            <h3>NEWSLETTER</h3>
-            <p>Subscribe to our mailing list and get updates to your email inbox.</p>
-            <form>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-paper-plane"></i></span>
-              </div>
-            </div>
-          </form>
-
-          <div class="logo-footer">
-                <a href="https://www.facebook.com/w3layouts/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-twitter"></i></a>
-                
-                <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-twitter"></i></a>
-                
-                <a href="https://in.linkedin.com/company/w3layouts"><i class="fa-brands fa-github-square"></i></a>
-                
-        </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -346,13 +333,12 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-
     <!-- Popper anf Bootstrap JS -->
-    <script+
+    <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
-    ></script+>
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
@@ -362,4 +348,3 @@
   </body>
 </html>
 
-</html>

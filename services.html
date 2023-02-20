@@ -38,95 +38,83 @@
     />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="./index.html">
     <link rel="stylesheet" href="./css/services.css">
   </head>
 
   <body>
-    <header class="header" style="display: none">
-      <div class="container">
+
+        <!-- header -->
+    <header class="header">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-            <div class="navbar-logo">
+          <div class="navbar-item navbar-logo">
               <a class="navbar-brand" href="#"
-                >Farmstead<i class="fa-solid fa-leaf"></i
-              ></a>
+                >Farmstead<i class="fa-solid fa-leaf"></i></a>
+          </div>
+
+          <div class="navbar-item navbar-content" id="navbarSupportedContent">
+            <div class="navbar-content-item search-bar">
+              <form>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></span>
+                      <input type="text" />
+                    </div>
+              </form>
             </div>
 
-            <div class="navbar-content" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- search form -->
-                <form>
-                  <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1"
-                      ><i class="fa-solid fa-magnifying-glass"></i
-                    ></span>
-                    <input type="text" class="form-control" />
-                  </div>
-                </form>
+            <div classs="navbar-content-item toggle-button">
+               <li class="nav-item dropdown">
+                <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                >
+                      <i class="fa-solid fa-bars"></i>
+                </a>
 
-                <!-- night mode -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    ><i class="fa-regular fa-moon"></i
-                  ></a>
-                </li>
-
-                <!-- toggle bar -->
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <i class="fa-solid fa-bars"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="./home.html">Home</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./about.html">About</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./services.html"
-                        >Services</a
-                      >
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="./services.html"
-                        >Blog Posts</a
-                      >
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="landing.html">Landing Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="elements.html">Elements Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="404.html">404 Page</a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                        <a class="dropdown-item" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./about.html">About</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./services.html"
+                          >Services</a
+                        >
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="./services.html"
+                          >Blog Posts</a
+                        >
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="landing.html">Landing Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="elements.html">Elements Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="404.html">404 Page</a>
+                  </li>
+                  <li>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </li>
             </div>
           </div>
         </nav>
       </div>
     </header>
-
+    
     <section class="blog-carousel">
       <div class="row">
         <div class="col-4">

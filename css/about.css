@@ -3,50 +3,68 @@
     box-sizing: border-box;
     font-family: 'Volkhov', serif;
 }
+.container-fluid {
+    width: 100%;
+}
 
 .header {
-    margin: 0 10%;
     position: fixed;
     width: 100%;
-    height: 90px;
-    padding: 25px 15px;
-    /* background: white; */
+    height: auto;
+    padding: 30px 50px;
     z-index: 10;
 }
 
-.header .navbar .navbar-logo {
-    margin: 0 0;
+.header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header .navbar .navbar-logo a {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 900;
     padding: 0px;
 }
 
-.header .navbar .navbar-brand i {
-    top: -0.2px;
-    left: 55px;
-    font-size: 20px;
+.header .navbar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.header .navbar .navbar-content {
-    margin-right: 0px;
+.header .search-bar form {
+    border: 1px solid #fb811e;
+    background-color: white;
 }
 
-.header .navbar .navbar-content a {
-    color: white;
+.header .search-bar span {
+    background-color: white;
 }
 
-.header .navbar .navbar-content .nav-item .nav-link {
-    font-size: 29px;
-    line-height: 1em;
+.header .search-bar input {
+    border: 1px solid #fb811e;
 }
 
-.header .navbar .navbar-content .navbar-nav .nav-item:first-child i {
-    font-size: 15px;
-    line-height: 1em;
-    transform: rotate(70deg);
+.header .search-bar i {
+    font-size: 25px;
+    color: #fb811e;
+}
+
+.header .toggle-button i {
+    font-size: 25px;
+    color: #fb811e;
+}
+
+.header .toggle-button .dropdown-menu a {
+    color: black;
+}
+
+.header .toggle-button .dropdown-menu a:hover {
+    color: #fb811e;
+    font-weight: bold;
+    background-color: #e4e4e4;
 }
 
 /* .blog-carousel {
